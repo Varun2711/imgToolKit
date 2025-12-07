@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imgtoolkit"
+version = "0.0.1"
+authors = [
+    {name = "Varun Patel", email = "rvjpatel99@gmail.com"}
+]
+description = "An open source image processing toolkit built for learning image processing and contributing to open source software"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "numpy",
+    "pillow",
+    "matplotlib"
+]
+
+[project.scripts]
+imgtoolkit = "imgtoolkit.main:main"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Intended Audience :: Developers"
+]
