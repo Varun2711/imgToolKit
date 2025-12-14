@@ -29,7 +29,7 @@ jobs:
       - name: Lint with Ruff
         run: |
           pip install ruff
-          ruff check . --format=github --target-version=py312
+          ruff check . -- --format=github --target-version=py312
         continue-on-error: true
 
       - name: Test with pytest
