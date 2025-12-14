@@ -18,9 +18,6 @@ dependencies = [
     "matplotlib"
 ]
 
-[project.scripts]
-imgtoolkit = "imgtoolkit.main:main"
-
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.12",
@@ -29,3 +26,6 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Image Processing",
     "Intended Audience :: Developers"
 ]
+
+[project.scripts]
+imgtoolkit = "imgtoolkit.main:main"
